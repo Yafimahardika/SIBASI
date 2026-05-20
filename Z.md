@@ -85,3 +85,11 @@ Jangan lupa untuk membuat kunci aplikasi dengan `php artisan key:generate`
 Jangan lupa juga mengganti jenis database ke db *mysql*
 
 *Error* Saat buat migration, karena ada foreign key yang belum dibuat, ya error
+
+Ada fungsi dari php yang ngga kumengerti jadi harus belajar mundur
+`subtr()` dan `str_pad()`, meski begitu, tetap ada progres: nomor rekening sudah bisa digenerate otomatis dengan format prefix dan nomor
+
+Juga ada alert yang akan merespon error lewat session, makasih co-pilot
+
+Let's call it a day! _21/05/2026, 00:10_ commited by *Yafi*
+

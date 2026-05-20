@@ -10,7 +10,7 @@ Route::get('/', function () {
 });
 
 // =============================================================
-Route::get('/nasabah', [NasabahController::class, 'index']);
+Route::get('/nasabah', [NasabahController::class, 'index'])->name('nasabah.index');
 
 Route::get('/nasabah/tambah', [NasabahController::class, 'tambah'])->name('nasabah.tambah');
 
