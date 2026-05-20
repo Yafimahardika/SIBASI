@@ -80,3 +80,8 @@ Let's call it a day! _17/05/2026 , 23:35_
 Letak repo projek SIBASI dari akun github tiana di pindah ke akun github yafi.
 
 _19/05/2026, 20:55_
+=============================================================================
+Jangan lupa untuk membuat kunci aplikasi dengan `php artisan key:generate`
+Jangan lupa juga mengganti jenis database ke db *mysql*
+
+*Error* Saat buat migration, karena ada foreign key yang belum dibuat, ya error

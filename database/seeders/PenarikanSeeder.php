@@ -14,7 +14,7 @@ class PenarikanSeeder extends Seeder
      */
     public function run(): void
     {
-        Penarikan::truncate();
+        // Penarikan::truncate();
 
         $nasabah = Nasabah::first();
 

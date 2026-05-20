@@ -23,7 +23,6 @@ class NasabahSeeder extends Seeder
             'no_hp'=>'081234567890',
             'saldo'=>0,
         ]);
-
         Nasabah::create([
             'no_rekening'=>'BS002',
             'nik'=>'3512345678900002',

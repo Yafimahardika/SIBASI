@@ -11,16 +11,16 @@ return new class extends Migration
      */
     public function up(): void
     {
-        // Schema::create('produks', function (Blueprint $table) {
-        //     $table->id();
-        //     $table->string('nama');
-        //     $table->decimal('harga', 15, 2)->default(0);
-        //     $table->integer('stok')->default(0);
-        //     $table->string('kategori')->nullable();
-        //     $table->text('deskripsi')->nullable();
-        //     $table->boolean('aktif')->default(true);
-        //     $table->timestamps();
-        // });
+        Schema::create('produks', function (Blueprint $table) {
+            $table->id();
+            $table->string('nama');
+            $table->decimal('harga', 15, 2)->default(0);
+            $table->integer('stok')->default(0);
+            $table->string('kategori')->nullable();
+            $table->text('deskripsi')->nullable();
+            $table->boolean('aktif')->default(true);
+            $table->timestamps();
+        });
     }
 
     /**

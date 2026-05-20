@@ -13,7 +13,7 @@ class JenisSampahSeeder extends Seeder
      */
     public function run(): void
     {
-        JenisSampah::truncate();
+        // JenisSampah::truncate();
 
         JenisSampah::create(['nama'=>'Plastik','harga_per_kg'=>3000]);
         JenisSampah::create(['nama'=>'Kertas','harga_per_kg'=>2000]);

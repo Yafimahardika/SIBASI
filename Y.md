@@ -48,3 +48,17 @@ Dua cara penulisan CSRF
 2. gaya baru: @csrf, directive
 
 # Perhatikan penulisan router biasa dengan uri atau yang named route
+
+Jangan lupa untuk membuat kunci aplikasi dengan `php artisan key:generate`
+Jangan lupa juga mengganti jenis database ke db *mysql*
+
+Jika ingin menghapus suatu tabel migrations, maka kamu bisa
+1. Menghapus file tabel migrasi
+2. Jalankan: `php artisan migrate:fresh`, perintah ini akan menghapus (drop) dan menjalankan ulang migrasi tampa tabel yang dihapus.
+
+Cara quick open file di vscode:
+1. Ctrl + P
+2. Ketik nama file, enter
+
+Tentang `truncate()`, fungsinya menghapus data dalam suatu tabel yang aka1n digantikan
+dengan data baru, yang dalam hal ini berarti mereset auto increament ke 0/1
